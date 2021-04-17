@@ -1,0 +1,46 @@
+body {
+  padding-left: 1em;
+  padding-bottom: 1em;
+  font-family: monospace;
+}
+
+p {
+  max-width:  40em;
+  width:      40em;
+  text-align: justify;
+}
+
+th {
+  text-align: left;
+  padding-bottom: 0.5em;
+}
+
+td {
+  padding-right: 2em;
+}
+
+#footer {
+  margin-top: 2em;
+}
+
+.builds {
+  margin-top: 2em;
+}
+
+.builds th
+{
+  vertical-align: top;
+}
+
+.builds td
+{
+  text-align: left;
+  vertical-align: top;
+  width: 12em;
+}
+
+.builds td:nth-child(1)
+{
+  width: 24em;
+}
+
